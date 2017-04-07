@@ -1,0 +1,63 @@
+html,body,div,input,p,span,ul,li,h1,h2,h3,h4,h5,h6,a,img,form,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+.qq{
+    margin:0 auto;
+}
+.ww{
+    width: 1600px;
+    height: 80px;
+    background: #181b1e;
+    position: relative;
+}
+.ee{
+    width: 73px;
+    height: 22px;
+    position: absolute;
+    top: 29px;
+    left: 127px;
+    transition:all 5s;
+    transform:translate(100px);
+}
+li{
+    list-style: none;
+    float:left;
+    margin: 0 0 0 40px;
+}
+a{
+    text-decoration: none;
+}
+.rr{
+    position:absolute;
+    right: 617px;
+    /*background-color: red;*/
+}
+.rr ul li{
+    height: 75px;
+    padding-bottom: 5px;
+}
+.rr ul li:hover{
+    padding-bottom: 0;
+    border-bottom: 5px solid #f44336;
+}
+.rr ul li a{
+    color: #fff;
+    font:100 18px/80px '微软雅黑';
+}
+.rr ul li:visited a{
+    color:#f44336;
+    font-weight: 400;
+}
+.rr ul li:hover a{
+    color:#f44336;
+    font-weight: 400;
+}
+/*.yy{
+    width: 38px;
+    height: 5px;
+    background: #f44336;
+    position:absolute;
+    left: 619px;
+    bottom: 0;
+}*/
